@@ -14,7 +14,7 @@ const Hero = () => {
         transition={{ duration: 1.2 }}
         src="/assets/man.png"
         alt="ramy"
-        className="h-[200px] lg:h-[450px] xl:h-[550px] object-cover absolute bottom-0 right-0 left-0 mx-auto"
+        className="h-[250px] lg:h-[450px] xl:h-[550px] object-cover absolute bottom-0 right-0 left-0 mx-auto"
       />
 
       {/* background Circle */}
@@ -25,7 +25,7 @@ const Hero = () => {
         initial={{ opacity: 0, x: -50 }}
         whileInView={{ opacity: 1, x: 0 }}
         transition={{ duration: 1 }}
-        className="transition duration-300 ease-in-out absolute top-1/3 left-5 text-lg sm:left-10 sm:text-4xl md:left-16 lg:left-5 lg:text-6xl xl:left-44 md:text-3xl font-bold">
+        className="transition duration-300 ease-in-out absolute top-1/3 left-5 text-xl sm:left-10 sm:text-4xl md:left-16 lg:left-5 lg:text-6xl xl:left-44 md:text-3xl font-bold">
         <span className="text-gray-600 dark:text-gray-300 transition duration-200 ease-in-out">I craft</span>
         <p className="text-red-500">
           {text}
